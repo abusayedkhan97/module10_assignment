@@ -1,0 +1,63 @@
+.nav-item a, marquee a{
+    font-weight: bold;
+    font-size: 16px;
+    background: -webkit-linear-gradient(60deg, #f01e1e 40%, #001f7c 100%) !important;
+    color: transparent !important;
+    -webkit-background-clip: text !important;
+}
+
+.nav-item a:hover{
+    font-weight: bold;
+    font-size: 16px;
+    background: -webkit-linear-gradient(-60deg, #aa1010 40%, #09014a 100%) !important;
+    color: transparent !important;
+    -webkit-background-clip: text !important;
+}
+
+i{
+    font-size: 40px;
+}
+.card{
+    border-radius: 30px 0px;
+    transition: .4s;
+}
+.card:hover{
+    border-radius: 0px 30px;
+}
+
+.carousel-item img{
+    height: 600px;
+}
+
+
+
+
+/* responsive */
+@media (max-width:1440px) {
+    .carousel-item img{
+        height: 500px;
+    }
+}
+@media (max-width:1024px) {
+    .carousel-item img{
+        height: 400px;
+    }
+}
+@media (max-width:767px) {
+    .carousel-item img{
+        height: 275px;
+    }
+    .mdn{
+        display: none;
+    }
+}
+@media (max-width:425px) {
+    .carousel-item img{
+        height: 180px;
+    }
+}
+@media (max-width:320px) {
+    .carousel-item img{
+        height: 150px;
+    }
+}
